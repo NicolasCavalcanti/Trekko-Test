@@ -3,14 +3,14 @@ import Link from "next/link";
 import { Suspense } from "react";
 
 // shadcn/ui (assuma instaladas)
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Badge } from "@/components/ui/badge";
-import { Skeleton } from "@/components/ui/skeleton";
+import { Card, CardContent, CardHeader, CardTitle } from "../components/ui/card";
+import { Button } from "../components/ui/button";
+import { Input } from "../components/ui/input";
+import { Badge } from "../components/ui/badge";
+import { Skeleton } from "../components/ui/skeleton";
 
 // Icons
-import { Search, MapPin, Mountain, Users, CalendarDays, ChevronRight } from "@/components/icons";
+import { Search, MapPin, Mountain, Users, CalendarDays, ChevronRight } from "../components/icons";
 
 // ====== Tipos ======
 export type CMSHomeHero = {
